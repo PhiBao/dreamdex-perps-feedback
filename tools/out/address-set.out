@@ -1,0 +1,3 @@
+operatorPermissionsRegistry: undefined
+keys: binaryModule, binaryPoolBeacon, binaryPoolImpl, binarySettlement, clobFactory, collateral, marginBank, marketCreator, marketCreatorFactory, marketsCore, oracleHub, perpPoolFactory, priceFeedScheduler, testUsdc
+docs address: 0x6B2FbfeD328FF5F20C0BE7D3C3437613aFFE8D3a

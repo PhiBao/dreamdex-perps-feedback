@@ -1,0 +1,13 @@
+{
+  "name": "dreamdex-perps-feedback-repro",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Read-only reproducers and local-fork checks for dreamDEX perps feedback",
+  "type": "module",
+  "license": "MIT",
+  "dependencies": {
+    "@somnia-chain/markets-sdk": "0.32.1",
+    "dotenv": "18.0.8",
+    "viem": "2.57.7"
+  }
+}

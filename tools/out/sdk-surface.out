@@ -1,0 +1,6 @@
+perpPoolWriteAbi functions: [ 'placeOrder', 'cancelOrder', 'updateFunding', 'marginBank' ]
+orderBookBatchWriteAbi functions: [ 'placeOrders', 'cancelOrders', 'reduceOrders', 'amendOrders' ]
+placeOrderFor: false
+cancelOrderFor: false
+reduceOrderFor: false
+placeOrdersFor: false

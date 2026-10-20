@@ -1,0 +1,30 @@
+isVoucherMarketAllowed: {
+  ZRO: true,
+  LIT: true,
+  VVV: true,
+  '1000PEPE': true,
+  PUMP: true,
+  ZEC: true,
+  TAO: true,
+  WLD: true,
+  NEAR: true,
+  XLM: true,
+  AVAX: true,
+  LINK: true,
+  SUI: true,
+  ADA: true,
+  BNB: true,
+  DOGE: true,
+  XRP: true,
+  HYPE: true,
+  SOL: true,
+  ETH: true,
+  BTC: true
+}
+all allowed: true count: 21
+1000PEPE SIM OK price 2086200000000000 qty 2700000000000000000000
+LIT SIM OK price 1578800000000000000 qty 2800000000000000000
+PUMP SIM OK price 2200000000000000 qty 1800000000
+VVV SIM OK price 12175000000000000000 qty 440000000000000000
+ZEC SIM OK price 569275000000000000000 qty 900000
+ZRO SIM OK price 893300000000000000 qty 5100000000000000000

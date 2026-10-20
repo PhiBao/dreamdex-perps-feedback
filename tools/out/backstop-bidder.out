@@ -1,0 +1,8 @@
+{
+  "block": "28506584",
+  "bidderCount": "1",
+  "bidders": [
+    "0xAF327764345c2f54C1F2bc3322D28E4f633793b9"
+  ],
+  "liquidationPenaltyBps": "100"
+}

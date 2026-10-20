@@ -1,0 +1,26 @@
+{
+  "tx": "0xc00df0462aedc0538447747e54e981536782ad7944e0c6776373a124022f017d",
+  "shannon": {
+    "found": true,
+    "chainId": 50312,
+    "blockNumber": "519303985",
+    "to": "0x70a86d8842fb63c4ad2b7cdddf530ebf1bb25d8e",
+    "value": "0",
+    "input": "0xa9059cbb00000000000000000000000021ad5f5569069b5c1defa50988849c421533f97b",
+    "token": {
+      "symbol": "tUSDC",
+      "decimals": "6",
+      "codeLength": 3932
+    },
+    "recipient": {
+      "tUSDC": "500000000",
+      "stt": "50000000000000000000"
+    }
+  },
+  "hideki": {
+    "found": false,
+    "recipient": {
+      "stt": "0"
+    }
+  }
+}

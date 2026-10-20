@@ -1,0 +1,23 @@
+{
+  "block": "28506455",
+  "timestamp": "1792502534",
+  "account": "0x0000000000000000000000000000000000000001",
+  "eligibility": {
+    "eligible": true,
+    "grantAmount": "1000000000000000000000"
+  },
+  "activePools": [],
+  "mainFunded": "0",
+  "claimed": false,
+  "budgetRemaining": "431905000000000000000000000",
+  "config": {
+    "marginBank": "0x478769E1177C0773c43A593DCCc4Ad15F15F1394",
+    "collateralToken": "0xed7993A74dAe1e6656B704A424DcD8711aAf4F72",
+    "grantAmount": "1000000000000000000000",
+    "expiryDuration": "1209600",
+    "campaignStart": "1790553600",
+    "campaignEnd": "1798477478"
+  }
+}
+claim(): REVERT undefined | The contract function "claim" reverted with the following signature:
+0x3e31dcc2

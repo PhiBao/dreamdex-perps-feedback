@@ -1,0 +1,3 @@
+wallet usd 1000000000000000000000n bank state before [ 0n, 0n, [] ]
+place SIM OK [ true, 10090369008319131252620n ]
+bank state after [ 0n, 0n, [] ]
