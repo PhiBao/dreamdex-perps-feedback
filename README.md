@@ -1,7 +1,8 @@
 # dreamDEX Perps Builder Bounty — feedback
 
 Reproducible feedback for the **dreamDEX Perps Builder Bounty** on Somnia Tokyo
-(Hideki testnet).
+(Hideki testnet). The repository contains **15 one-file reports** covering SDK
+correctness, documentation gaps, and bot-kit issues.
 
 - Network: Hideki, chain **50383**
 - RPC: `https://api.hideki2.infra.testnet.somnia.network`

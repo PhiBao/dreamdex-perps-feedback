@@ -36,3 +36,7 @@ node leverage-voucher.mjs
 position-cap boundary is stable. `pending-cap-matrix.mjs` finds the current top
 position on each market and reproduces the same pattern live.
 
+`feedback/015` (read-after-write stale block) was captured from a live funded
+flow; its output is `out/read-after-write.out`. It is not a standalone script
+because it requires a funded key and sends orders.
+
