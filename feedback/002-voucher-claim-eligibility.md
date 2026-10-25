@@ -70,6 +70,11 @@ claim(): REVERT 0x3e31dcc2
 The SDK's declared error table does not name `0x3e31dcc2`, so a caller cannot
 branch on it.
 
+The same was reproduced with a funded Hideki wallet
+`0xDbFe5c4d0256D2459bB216caB905999Ca41bE349` (100 USDso in the wallet, no
+positions or orders): `getPerpVoucherEligibility` returned `eligible: true`, and
+`claim()` reverted `0x3e31dcc2` in `eth_call`.
+
 ## Environment
 
 - SDK: `@somnia-chain/markets-sdk@0.32.1`
