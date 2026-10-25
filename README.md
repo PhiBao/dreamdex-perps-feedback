@@ -31,6 +31,7 @@ environment.
 | 012 | Trading docs say bank-only margin; owner orders auto-pull from the wallet | normal | docs |
 | 013 | Bot kit says testnet builder cap is 0; Hideki perps report 10,000 (0.1%) | normal | docs |
 | 014 | Contest says no deposit required; docs/UX do not explain Shannon tUSDC or the paused deposit route | normal | docs |
+| 015 | Reads after a successful order can sample a stale block, so the next max-size quote reverts | major | SDK |
 
 ## Reproduce
 
@@ -68,7 +69,8 @@ Captured output from the runs is in `tools/out/`.
 - Every report names the block or run time used. Live docs and market parameters
   can be retuned; re-run the relevant script before submitting an update.
 - `feedback/001` is pinned to block `28492725` so the position-cap boundary is
-  stable.
+  stable. `feedback/015` is a live read-after-write race captured in
+  `tools/out/read-after-write.out`.
 - The scripts are read-only against the public testnet. The Anvil scripts only
   change a local fork.
 - No private keys are stored in this repository. The addresses in the reports
